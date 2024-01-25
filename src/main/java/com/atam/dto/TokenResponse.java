@@ -1,4 +1,4 @@
-package dto;
+package com.atam.dto;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 @Data

@@ -1,13 +1,13 @@
-package com.example.atam.controller;
+package com.atam.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.atam.service.AuthService;
+import com.atam.dto.TokenResponse;
+import com.atam.service.AuthService;
 
-import dto.TokenResponse;
 import lombok.RequiredArgsConstructor;
 
 @RestController

@@ -1,4 +1,4 @@
-package com.example.atam.service;
+package com.atam.service;
 
 import java.time.LocalDate;
 
@@ -12,7 +12,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
-import dto.TokenResponse;
+import com.atam.dto.TokenResponse;
+
 import lombok.RequiredArgsConstructor;
 
 @Service
